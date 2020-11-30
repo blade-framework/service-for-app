@@ -1,0 +1,24 @@
+{
+  "name": "blade/service-for-app-url",
+  "description": "为网站应用服务端提供接入刀片中控台和使用微服务的功能",
+  "type": "library",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "Wedan",
+      "email": "719540363@qq.com"
+    }
+  ],
+  "require": {
+    "php": ">7.0.1",
+    "blade-framework/library": "dev-dev"
+  },
+  "autoload": {
+    "psr-4": {
+      "Blade\\ServiceApp\\": "src/"
+    }
+  },
+  "scripts": {
+    "bsa": "Blade\\ServiceApp\\Tools::script"
+  }
+}
