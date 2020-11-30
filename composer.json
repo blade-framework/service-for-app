@@ -1,5 +1,5 @@
 {
-  "name": "blade/service-for-app",
+  "name": "blade-framework/service-for-app",
   "description": "为网站应用服务端提供接入刀片中控台和使用微服务的功能",
   "type": "library",
   "license": "Apache-2.0",
